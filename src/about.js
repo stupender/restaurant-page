@@ -1,6 +1,6 @@
 function createAbout() {
     let a = document.createElement("div");
-        a.classList.add("active about-container");
+        a.classList.add("about-container");
 
         let b1 = document.createElement("img");
         b1.setAttribute("id", "about-pic");

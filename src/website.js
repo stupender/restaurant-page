@@ -1,8 +1,8 @@
 // import { create } from "enhanced-resolve";
-import loadAbout from "./about";
-import loadContact from "./contact";
-import loadTeaching from "./teaching";
-import loadMusic from "./music";
+import loadAbout from "./about.js";
+import loadContact from "./contact.js";
+import loadTeaching from "./teaching.js";
+import loadMusic from "./music.js";
 
 function createHeader() {
     let header = document.createElement("header");

@@ -56,7 +56,8 @@ function createNav() {
     contactButton.setAttribute("href", "#")
     contactButton.setAttribute("class", "contact button-nav");
     contactButton.addEventListener("click", (e) => {
-        e.target.classList.toggle("active");
+        if (e.target.classList.contains("active")) return;
+        setActiveButton(contactButton);
         loadContact();
     });
 
@@ -109,7 +110,7 @@ function setActiveButton(button) {
   }
 
   function createMain() {
-    let main = document.createElement("main");
+    let main = document.createElement("nav");
     main.setAttribute("id", "page");
     
     return main;

@@ -1,6 +1,6 @@
 function createContact() {
     let a = document.createElement("div");
-    a.classList.add("active contact-container");
+    a.classList.add("contact-container");
     
     let b1 = document.createElement("div");
     let b1p = document.createElement("p");

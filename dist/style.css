@@ -30,9 +30,9 @@ nav {
 }
 
 .about-container {
-    margin-left: 15%;
+    /* margin-left: 15%; */
     /* margin-right: 5%; */
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -41,15 +41,16 @@ nav {
 }
 
 .contact-container {
-    margin-left: 15%;
+    /* margin-left: 15%; */
     padding-top: 15px;
     padding-right: 30px;
     padding-bottom: 17px;
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #0000001c;
+    width: 100%;
 
 }
 

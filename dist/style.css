@@ -1,7 +1,7 @@
 html {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    background-color: black;
+    background-color: #e0e0e0;
 }
 
 body {
@@ -133,7 +133,18 @@ p {
     font-size: .9em;
     text-align: justify;
     margin: 30px 30px;
+}
 
+#teaching-text {
+    font-size: .9em;
+    text-align: justify;
+    margin: 30px 30px;
+}
+
+#music-text {
+    font-size: .9em;
+    text-align: justify;
+    margin: 30px 30px;
 }
 
 a {

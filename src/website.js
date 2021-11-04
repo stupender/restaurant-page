@@ -38,7 +38,7 @@ function createNav() {
     musicButton.addEventListener("click", (e) => {
         if (e.target.classList.contains("active")) return;
         setActiveButton(musicButton);
-        // loadMusic();
+        loadMusic();
     });
 
     let teachingButton = document.createElement("a");
@@ -48,11 +48,11 @@ function createNav() {
     teachingButton.addEventListener("click", (e) => {
         if (e.target.classList.contains("active")) return;
         setActiveButton(teachingButton);
-        // loadTeaching();
+        loadTeaching();
     });
 
     let contactButton = document.createElement("a");
-    contactButton.textContent = "Connect";
+    contactButton.textContent = "Contact";
     contactButton.setAttribute("href", "#")
     contactButton.setAttribute("class", "contact button-nav");
     contactButton.addEventListener("click", (e) => {
@@ -67,7 +67,7 @@ function createNav() {
     let filterLabel = document.createElement("p");
     filterLabel.textContent = "FILTER WORK BY";
     filterLabel.setAttribute("href", "#")
-    filterLabel.setAttribute("class", "filter-item");
+    filterLabel.setAttribute("class", "contact-title");
 
     let allFilter = document.createElement("a");
     allFilter.textContent = "All";
@@ -97,6 +97,7 @@ function createNav() {
 
     return navBar;
 }
+
 
 function setActiveButton(button) {
     let buttons = document.querySelectorAll(".button-nav");
